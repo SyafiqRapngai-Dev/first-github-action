@@ -1,0 +1,10 @@
+name: env-secret
+on: workflow_dispatch
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: get-secret
+        env:
+          MYSECRET: ${{env.FIRST_ENV}}
+        run: echo "Hello Developer! The secret is $MYSECRET" 
