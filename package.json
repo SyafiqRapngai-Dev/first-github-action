@@ -1,0 +1,25 @@
+{
+  "name": "first-github-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SyafiqRapngai-Dev/first-github-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/SyafiqRapngai-Dev/first-github-action/issues"
+  },
+  "homepage": "https://github.com/SyafiqRapngai-Dev/first-github-action#readme",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "pg": "^8.20.0"
+  }
+}
