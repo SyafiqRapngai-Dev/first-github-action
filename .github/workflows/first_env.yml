@@ -3,6 +3,7 @@ on: workflow_dispatch
 jobs:
   my-job:
     runs-on: ubuntu-latest
+    environment: dev
     steps:
       - name: get-secret
         env:
