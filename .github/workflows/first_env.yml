@@ -7,5 +7,5 @@ jobs:
     steps:
       - name: get-secret
         env:
-          MYSECRET: ${{env.FIRST_ENV}}
+          MYSECRET: ${{vars.FIRST_ENV}}
         run: echo "Hello Developer! The secret is $MYSECRET" 
