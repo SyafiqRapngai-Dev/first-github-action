@@ -1,4 +1,4 @@
-name: env-secret
+name: env-var
 on: workflow_dispatch
 jobs:
   my-job:
